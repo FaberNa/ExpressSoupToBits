@@ -7,3 +7,6 @@ var cities = require('./routes/cities');
 app.use('/cities', cities);
 
 module.exports = app;
+
+app.listen(8080);
+console.log('server listen on 8080');
